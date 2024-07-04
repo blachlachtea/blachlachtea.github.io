@@ -33,15 +33,18 @@ ps：改代码的时候一定注意，只有最后一行句尾不需要英文逗
 
 *发布文章：
 Issues-创建新的，发布时一定记得加#Labels标签
+![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/fe7bbc3f-b641-4568-a718-71de547a54ba)
+![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/77b3497e-787b-4457-b31e-cdc5916822c0)
 
 添加图片=直接复制或拖进来就可以，会自动生成对应链接
 置顶=右侧选 Pin issue
 删除=Close issue/Delete issue
+![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/275aa24e-6ebf-4998-87f9-c4cb2053c6d2)
 
 *修改文章发布时间：
 文章末尾一行加代码
-加代码<!-- ##{"timestamp":时间戳数字}## -->
-时间戳数字转换网站→ https://tool.lu/timestamp/
+![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/200b3b16-ee57-47b9-bc02-235cce7e62e0)
+中间的数字自行替换，时间戳数字转换网站→ https://tool.lu/timestamp/
 
 *打高亮小标签
 加代码> [!NOTE]
