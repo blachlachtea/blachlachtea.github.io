@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>甜水有只独角兽</title><link>https://blachlachtea.github.io</link><description>漫游人生电子垃圾站</description><copyright>甜水有只独角兽</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.picui.cn/free/2024/07/03/6685181ff2ce8.jpg</url><title>avatar</title><link>https://blachlachtea.github.io</link></image><lastBuildDate>Thu, 04 Jul 2024 04:58:55 +0000</lastBuildDate><managingEditor>甜水有只独角兽</managingEditor><ttl>60</ttl><webMaster>甜水有只独角兽</webMaster><item><title>【个人博客搭建】Gmeek框架-小白也可以上手的个人博客搭建教程</title><link>https://blachlachtea.github.io/post/%E3%80%90-ge-ren-bo-ke-da-jian-%E3%80%91Gmeek-kuang-jia---xiao-bai-ye-ke-yi-shang-shou-de-ge-ren-bo-ke-da-jian-jiao-cheng.html</link><description>**搭建流程**&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>甜水有只独角兽</title><link>https://blachlachtea.github.io</link><description>漫游人生电子垃圾站</description><copyright>甜水有只独角兽</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.picui.cn/free/2024/07/03/6685181ff2ce8.jpg</url><title>avatar</title><link>https://blachlachtea.github.io</link></image><lastBuildDate>Thu, 04 Jul 2024 05:00:09 +0000</lastBuildDate><managingEditor>甜水有只独角兽</managingEditor><ttl>60</ttl><webMaster>甜水有只独角兽</webMaster><item><title>【个人博客搭建】Gmeek框架-小白也可以上手的个人博客搭建教程</title><link>https://blachlachtea.github.io/post/%E3%80%90-ge-ren-bo-ke-da-jian-%E3%80%91Gmeek-kuang-jia---xiao-bai-ye-ke-yi-shang-shou-de-ge-ren-bo-ke-da-jian-jiao-cheng.html</link><description>**搭建流程**&#13;
 微博帖子索引（含大致步骤）：https://weibo.com/7900749078/5050967191982458&#13;
 &#13;
 ①注册Github账号&#13;
@@ -38,8 +38,9 @@ Issues-创建新的，发布时一定记得加#Labels标签&#13;
 ![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/77b3497e-787b-4457-b31e-cdc5916822c0)&#13;
 &#13;
 添加图片=直接复制或拖进来就可以，会自动生成对应链接&#13;
-置顶=右侧选 Pin issue&#13;
-删除=Close issue/Delete issue&#13;
+&#13;
+置顶= Pin issue（编辑文章时在右侧下方可选）&#13;
+删除=Close issue/Delete issue（编辑文章时在右侧下方可选）&#13;
 ![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/275aa24e-6ebf-4998-87f9-c4cb2053c6d2)&#13;
 &#13;
 *修改文章发布时间：&#13;
