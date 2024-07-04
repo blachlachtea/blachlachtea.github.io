@@ -39,24 +39,25 @@ Issues-创建新的，发布时一定记得加#Labels标签
 删除=Close issue/Delete issue
 
 *修改文章发布时间：
-文章末尾一行加代码<!-- ##{"timestamp":时间戳数字}## -->
+文章末尾一行加代码
+加代码<!-- ##{"timestamp":时间戳数字}## -->
 时间戳数字转换网站→ https://tool.lu/timestamp/
 
 *打高亮小标签
 加代码> [!NOTE]
-> Useful information that users should know, even when skimming content.
+加代码> Useful information that users should know, even when skimming content.
 
 加代码> [!TIP]
-> Helpful advice for doing things better or more easily.
+加代码> Helpful advice for doing things better or more easily.
 
 加代码> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+加代码> Key information users need to know to achieve their goal.
 
 加代码> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+加代码> Urgent info that needs immediate user attention to avoid problems.
 
 加代码> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+加代码> Advises about risks or negative outcomes of certain actions.
 
 效果如下↓
 ![image](https://github.com/blachlachtea/blachlachtea.github.io/assets/174589953/af88ffc3-e582-44fb-a521-0873dc0bbc67)
