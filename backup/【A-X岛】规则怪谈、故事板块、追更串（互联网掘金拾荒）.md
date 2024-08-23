@@ -1,4 +1,5 @@
 https://xdnmb.miraheze.org/wiki/A%E5%B2%9B%E5%B7%B2%E7%BC%93%E5%AD%98%E4%B8%B2%E5%88%97%E8%A1%A8
+动物园怪谈：https://web.archive.org/web/20220122134656/https://adnmb3.com/t/44880434
 
 > [!NOTE]
 > 神作存档
