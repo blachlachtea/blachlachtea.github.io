@@ -29,7 +29,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <style>
 .avatar {transition: 0.8s;width:64px;height:64px;object-fit: cover;}
 .avatar:hover{transform: scale(1.15) rotate(360deg);}
-#header h1 a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-family:Monaco;margin-left:8px;}
+.title-left a{color:inherit;text-decoration:none;vertical-align: bottom;font-size:40px;font-weight: bold;font-family:Monaco;margin-left:8px;}
 .title-right{display:flex;margin:auto 0 0 auto;}
 .title-right button{margin-right:8px;padding:16px;}
 .title-right .circle{padding: 14px 16px;}
@@ -55,8 +55,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1>
-    <img src="https://picture.gptkong.com/20240807/1350e80c6f36054ae7ae2902daf67cc50d.jpg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">甜水有只独角兽</a></h1>
+<div class="title-left">
+    <img src="https://picture.gptkong.com/20240807/1350e80c6f36054ae7ae2902daf67cc50d.jpg" class="avatar circle" id="avatarImg" alt="avatar"><a class="blogTitle">甜水有只独角兽</a></div>
 <div class="title-right">
     <a href="https://blachlachtea.github.io/tag.html" id="buttonSearch" class="btn btn-invisible circle" title="搜索">
         <svg class="octicon" width="16" height="16" >
@@ -84,9 +84,20 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div style="margin-bottom: 16px;">漫游人生电子垃圾站</div>
 <nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-wen-zi-su-cai-%E3%80%91-tong-ku-shi-yi-qie-yi-shu-de-tu-rang-%EF%BC%88wb-pian-duo-%EF%BC%89.html">
+<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-geng---dian-zi-%E3%80%91-shi-jie-zhi-da-wu-qi-bu-you.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
+        </svg>
+        <span class="listTitle">【梗/点子】世界之大无奇不有</span>
+    </div>
+    <div class="listLabels">
+        
+        <span class="Label LabelName" style="background-color:#cfd3d7"><object><a style="color:#fff" href="tag.html#素材&idea">素材&idea</a></object></span>
+        <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-24</span>
+    </div>
+</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-wen-zi-su-cai-%E3%80%91-tong-ku-shi-yi-qie-yi-shu-de-tu-rang-%EF%BC%88wb-pian-duo-%EF%BC%89.html">
+    <div class="d-flex flex-items-center">
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【文字素材】痛苦是一切艺术的土壤（wb偏多）</span>
     </div>
@@ -97,7 +108,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-ling-gan-cun-dang-%E3%80%91-shen-me-du-you-de-da-za-hui.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【灵感存档】什么都有的大杂烩</span>
     </div>
@@ -108,7 +119,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-guan-yu-hui-bi-%E3%80%91-zi-wo-tan-suo-jin-du-da-30%25.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【关于回避】自我探索进度达30%</span>
     </div>
@@ -119,7 +130,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-zi-wo-jie-shao-%E3%80%91-tan-suo-geng-duo-shen-jin-de-wo-%EF%BC%88-ren-sheng-su-cai-wa-jue-%EF%BC%89.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【自我介绍】探索更多神金的我（人生素材挖掘）</span>
     </div>
@@ -130,7 +141,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90A-X-dao-%E3%80%91-gui-ze-guai-tan-%E3%80%81-gu-shi-ban-kuai-%E3%80%81-zhui-geng-chuan-%EF%BC%88-hu-lian-wang-jue-jin-shi-huang-%EF%BC%89.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【A/X岛】规则怪谈、故事板块、追更串（互联网掘金拾荒）</span>
     </div>
@@ -141,7 +152,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-ke-pu-%E3%80%91-nv-xing-zhu-yi.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【科普】女性主义</span>
     </div>
@@ -152,7 +163,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-bian-qu-%E3%80%91FL-shui-guo-%20%26%20-da-ji-dian-Launch%20pad.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【编曲】FL水果 &amp; 打击垫Launch pad</span>
     </div>
@@ -163,7 +174,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-yang-sheng-%E3%80%91-shi-li-xun-lian-%26-zheng-nian-ming-xiang.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【养生】视力训练&amp;正念冥想</span>
     </div>
@@ -174,7 +185,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-ta-luo-zhan-bu-%E3%80%91-dian-zi-zi-liao.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【塔罗占卜】电子资料</span>
     </div>
@@ -185,7 +196,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-hui-hua-%E3%80%91-dian-zi-zi-liao-%26-wang-zhan-zi-yuan.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【绘画】电子资料&amp;网站资源</span>
     </div>
@@ -196,7 +207,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-ji-yi-sui-pian-%E3%80%91-shao-kan-kan-bie-zai-na-er-shang-chun-bei-qiu-le.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【记忆碎片】少看看别在那儿伤春悲秋了</span>
     </div>
@@ -207,7 +218,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-can-kao-zi-liao-%E3%80%91-shen-mi-xue.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【参考资料】神秘学</span>
     </div>
@@ -218,7 +229,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-can-kao-zi-liao-%E3%80%91-min-su-xue-%26-xi-fang-shen-hua-ti-xi-%EF%BC%88-dai-geng-xin-%EF%BC%89.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【参考资料】民俗学&amp;西方神话体系（待更新）</span>
     </div>
@@ -229,7 +240,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
 </a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-can-kao-zi-liao-%E3%80%91-zhen-tan---xing-zhen-%20-bi-bei-zhi-shi.html">
     <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        <svg class="SideNav-icon octicon" style="width:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">【参考资料】侦探/刑侦 必备知识</span>
     </div>
@@ -237,17 +248,6 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         
         <span class="Label LabelName" style="background-color:#B9D133"><object><a style="color:#fff" href="tag.html#资料&资源">资料&资源</a></object></span>
         <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-10</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/%E3%80%90-gong-ju-%E3%80%91-shi-yong-wang-zhan-shou-na.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">【工具】实用网站收纳</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#0E8A16"><object><a style="color:#fff" href="tag.html#网站工具索引">网站工具索引</a></object></span>
-        <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-09</span>
     </div>
 </a>
 </nav><nav class="paginate-container" aria-label="Pagination">
@@ -267,7 +267,7 @@ if("07/01/2024"!=""){
     var startSite=new Date("07/01/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
 }
 </script></div>
 </body>
